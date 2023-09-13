@@ -83,7 +83,7 @@ private fun ReplyNavHost(
         startDestination = ReplyRoute.INBOX,
     ) {
         composable(ReplyRoute.INBOX) {
-            HomePage(modifier = Modifier)
+            Demo4()
         }
 
         composable(ReplyRoute.ARTICLES) {
